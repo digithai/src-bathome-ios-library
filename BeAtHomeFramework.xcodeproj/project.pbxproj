@@ -218,9 +218,7 @@
 		A99EFF34237A5FAA00AE804D /* BeAtHomeFramework */ = {
 			isa = PBXGroup;
 			children = (
-				A99EFF8F237A60DB00AE804D /* beathomeioslib */,
-				A99EFF3D237A60DB00AE804D /* Crypto */,
-				A99EFF35237A5FAA00AE804D /* BeAtHomeFramework.h */,
+				A9F62AAD237BF88D005832C4 /* Classes */,
 				A99EFF36237A5FAA00AE804D /* Info.plist */,
 			);
 			path = BeAtHomeFramework;
@@ -388,6 +386,16 @@
 				A99EFF9A237A60DB00AE804D /* DeviceInformationManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		A9F62AAD237BF88D005832C4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A99EFF35237A5FAA00AE804D /* BeAtHomeFramework.h */,
+				A99EFF8F237A60DB00AE804D /* beathomeioslib */,
+				A99EFF3D237A60DB00AE804D /* Crypto */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
