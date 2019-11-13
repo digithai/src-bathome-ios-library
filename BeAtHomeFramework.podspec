@@ -14,10 +14,10 @@ s.author = { "DIGITHAI" => "info@digithaigroup.com" }
 
 s.homepage = "https://github.com/digithai/bathome-ios-library"
 
-s.source = { :git => "https://github.com/digithai/bathome-ios-library.git",
+s.source = { :git => "https://github.com/digithai/src-bathome-ios-library.git",
              :tag => "#{s.version}" }
 
-s.source_files = "Classes/**/*.{swift,h,m}"
+s.source_files = "BeAtHomeFramework/Classes/**/*.{swift,h,m}"
 
 s.swift_version = "5.1"
 
