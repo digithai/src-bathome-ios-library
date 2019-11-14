@@ -17,7 +17,9 @@ s.homepage = "https://github.com/digithai/bathome-ios-library"
 s.source = { :git => "https://github.com/digithai/src-bathome-ios-library.git",
              :tag => "#{s.version}" }
 
-s.source_files = "BeAtHomeFramework/Classes/**/*.{swift,h,m}"
+s.public_header_files = "BeAtHomeFramework.framework/Headers/*.h"
+s.source_files = "BeAtHomeFramework.framework/Headers/*.h"
+s.vendored_frameworks = "BeAtHomeFramework.framework"
 
 s.swift_version = "5.1"
 

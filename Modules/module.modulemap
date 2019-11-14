@@ -1,0 +1,11 @@
+framework module BeAtHomeFramework {
+  umbrella header "BeAtHomeFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module BeAtHomeFramework.Swift {
+    header "BeAtHomeFramework-Swift.h"
+    requires objc
+}
