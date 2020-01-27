@@ -6,7 +6,7 @@ s.name = "BeAtHomeFramework"
 s.summary = "BeAtHomeFramework lets a user authenticate with Be@Home."
 s.requires_arc = true
 
-s.version = "1.0.4"
+s.version = "1.0.5"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
