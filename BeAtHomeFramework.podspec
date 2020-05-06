@@ -6,7 +6,7 @@ s.name = "BeAtHomeFramework"
 s.summary = "BeAtHomeFramework lets a user authenticate with Be@Home."
 s.requires_arc = true
 
-s.version = "1.0.6"
+s.version = "1.0.7"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -21,6 +21,6 @@ s.public_header_files = "BeAtHomeFramework.framework/Headers/*.h"
 s.source_files = "BeAtHomeFramework.framework/Headers/*.h"
 s.vendored_frameworks = "BeAtHomeFramework.framework"
 
-s.swift_version = "4.2.1"
+s.swift_version = "5.1.3"
 
 end
